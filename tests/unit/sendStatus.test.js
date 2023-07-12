@@ -10,6 +10,6 @@ describe('sendStatus', () => {
     sendStatus(request, response)
     
     expect(response.sendStatus.calledOnce).to.be.true
-    expect(response.sendStatus.calledWith(201)).to.be.true
+    expect(response.sendStatus.calledWith(200)).to.be.true
   })
 })
